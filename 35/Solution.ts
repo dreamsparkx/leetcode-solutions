@@ -1,4 +1,4 @@
-function searchInsert(nums: number[], target: number): number {
+function searchInsert(nums: number[], target: number): number { // binary search
     let l: number = 0;
     let r: number = nums.length - 1;
     let mid: number;
